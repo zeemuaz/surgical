@@ -1,0 +1,6 @@
+{
+  "name": "AUREN Instruments — Surgical & Dental Instrument Manufacturing",
+  "description": "Precision surgical and dental instrument catalog, OEM manufacturing capabilities, and B2B quotation platform based in Sialkot, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

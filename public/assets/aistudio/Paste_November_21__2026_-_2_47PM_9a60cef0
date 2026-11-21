@@ -1,0 +1,695 @@
+You are an elite digital product team operating as one: an award-winning creative director, Swiss editorial designer, senior UI/UX specialist, experienced medical-industry B2B strategist, senior full-stack engineer, motion designer, SEO specialist, accessibility engineer, and meticulous QA engineer.
+
+YOUR MISSION
+Design, code, and thoroughly test a complete, production-quality, premium website for a surgical and dental instrument manufacturer based in Sialkot, Pakistan.
+
+This is intended as a real client-ready, white-label website foundation for established surgical manufacturing companies. Its design must feel worthy of a custom international agency project costing USD 1,000–2,000 or more. That is the quality benchmark, not a claim to show on the website.
+
+The result must NOT look like a vibe-coded AI landing page, a generic SaaS template, a cheap WordPress theme, or an ordinary Pakistani export-company website.
+
+DO NOT stop after generating a homepage. Deliver the complete functional website. Make excellent independent design and engineering decisions. Do not ask unnecessary questions or stop after making a plan. Where actual business information is unavailable, centralize clearly identified demo content and never present invented company facts as verified truths.
+
+PROJECT IDENTITY
+Working brand: AUREN Instruments
+Descriptor: Surgical & Dental Instrument Manufacturing
+Location: Sialkot, Pakistan
+Audience: international importers, hospital procurement teams, distributors, private-label brands, and domestic institutional buyers.
+Brand name, logo, tagline, email, telephone, social accounts, company address, currencies, certification documents, product prices, categories, and catalog files must be easily replaceable in centralized configuration or editable content.
+
+Important: AUREN is a demonstration name, not an actual verified company.
+
+DESIGN NORTH STAR
+Create a beautifully restrained combination of:
+- Swiss editorial layout discipline
+- Premium European medical-engineering product presentation
+- Apple-like attention to precision and polish, without cloning Apple
+- Luxury industrial product photography
+- Modern B2B catalog functionality
+
+The site must feel precise, quiet, established, expensive, human-designed, credible, and technically competent.
+
+The central idea is: THE PRODUCT IS THE HERO.
+
+RESEARCH / INSPIRATION
+Study, where browsing is possible:
+- B. Braun / Aesculap
+- KLS Martin
+- Sklar Corporation
+- SITEC surgical instruments
+- Instrumed Sialkot
+
+Learn from their product discovery, categorization, technical specifications, and procurement workflows, but do not reproduce their copyrighted copy, images, logos, or layouts.
+
+VISUAL IDENTITY
+Primary background: #FFFFFF
+Secondary background: #F4F6F7
+Primary text: #171C20
+Accent: #162C35 (dark, desaturated deep teal)
+Muted steel gray: #A8B5B9
+Borders: #E3E8EA
+
+Use roughly 80% white/light surfaces, 15% cool-neutral surfaces, 5% deep-teal accents.
+Dark areas should be rare and intentional.
+
+Typography:
+- Use a refined contemporary grotesk such as Manrope, Inter, or a similarly premium, accessible, commercially usable font.
+- Use excellent optical sizing, balanced weight, elegant tracking, and carefully controlled line height.
+- Avoid generic gigantic bold SaaS headlines.
+- Headings must be clear, editorial, confident, and relatively concise.
+- Micro-labels can use restrained uppercase tracking.
+- Do not use more than two typefaces.
+
+Layout:
+- Desktop maximum content width about 1440px.
+- Consistent grid and spacing system.
+- Prefer generous but disciplined whitespace.
+- Strong alignment and clean optical balance.
+- Subtle 1px borders.
+- Minimal radius: around 4–10px for most UI elements.
+- No excessive rounded pill cards.
+- No random gradient blobs.
+- No neon glow.
+- No glassmorphism.
+- No cartoon icons, emoji, or floating decorations.
+- No meaningless illustrations.
+- No overused 'three benefits cards' composition.
+- No repetitive alternating text-and-image sections.
+- No generic testimonials, fake logos, or invented client claims.
+- No arbitrary 100vh sections except where the composition truly benefits.
+- Keep homepage copy exceptionally concise.
+
+PHOTOGRAPHY / IMAGE DIRECTION
+Photography quality is a top priority, not an afterthought.
+
+Hero image:
+- Extremely refined editorial studio photograph of actual-looking stainless-steel surgical instruments.
+- Carefully arranged scissors, forceps, clamps, or relevant precision tools.
+- White, pearl gray, or soft neutral clinical background.
+- Elegant sculptural composition with sophisticated lighting.
+- Natural metal reflections and realistic fine details.
+- Tactile, premium material representation.
+- Clear negative space for the headline.
+- Image must feel like a professional campaign for a European precision-engineering brand.
+- NOT a generic surgeon in blue scrubs, smiling doctor, operating-room stock image, or AI-generated human.
+- No text embedded into images.
+- No garbled instrument markings.
+- Avoid distorted instrument anatomy, impossible joint geometry, and inaccurate tool shapes.
+
+Use client-provided or properly licensed images whenever available.
+If no suitable assets are available, implement a cohesive provisional imagery set with clear replacement instructions. Never silently use third-party copyrighted catalog photographs as production assets.
+Use consistent image treatment across category and product cards.
+Preserve realistic product proportions.
+Use next/image optimization where appropriate.
+Ensure no blank or broken images.
+
+MOTION DIRECTION
+Use restrained, premium, carefully orchestrated animations.
+
+Allowed:
+- Subtle hero reveal
+- Gentle opacity and translate transitions (approximately 8–20px)
+- Sophisticated staggered entrance
+- Fine underline animations
+- Minimal image scale on hover (1.00 to 1.025)
+- Smooth product card transitions
+- Elegant modal and mobile-menu transitions
+- Controlled scroll-based reveal
+- Optional very subtle image parallax only when performance allows
+
+Typical durations: 180–600ms.
+Easing: refined cubic-bezier with smooth deceleration.
+No bounce, spring overload, spinning icons, random floating objects, flashy particle effects, scroll hijacking, excessive text splitting, or prolonged page-load animation.
+
+Use Framer Motion / Motion only where beneficial. CSS transitions are preferred for simple effects.
+Support prefers-reduced-motion.
+Motion must never delay access to content or harm usability.
+
+INFORMATION ARCHITECTURE
+Create these complete routes:
+1. / — Home
+2. /products — Full catalog
+3. /products/[slug] — Individual product detail
+4. /categories/[slug] — Category listing
+5. /manufacturing — Manufacturing & OEM
+6. /about — About the manufacturer
+7. /contact — Contact and RFQ
+8. /quote — Saved quotation list
+9. /catalog — Digital catalog / PDF downloads
+10. /privacy — Privacy policy
+11. /terms — Terms / inquiry conditions
+Plus an elegant 404 page.
+
+Avoid unnecessary pages and redundant content. Every page must have a clear purpose and direct path toward product discovery or inquiry.
+
+HOMEPAGE: EXACT DESIGN INTENT
+
+SECTION 1 — HEADER
+Refined and quietly authoritative.
+Desktop:
+- Brand wordmark on left: AUREN, with a restrained custom-feeling typographic treatment.
+- Navigation: Products, Manufacturing, About, Contact.
+- Catalog search icon or expandable search.
+- Quote icon with saved-item count.
+- Small but visible primary 'Request Quote' CTA.
+- Product categories available via an accessible, elegant dropdown or mega-menu if the catalog size warrants it.
+- Sticky behavior only if elegant.
+- Slight border/background transition on scroll.
+- No massive announcement bar.
+- No overloaded utility navigation.
+- Perfect logo/nav/action alignment.
+
+Mobile:
+- Exceptional responsive hamburger navigation.
+- Proper focus management and close behavior.
+- Large enough tap targets.
+- No horizontal overflow.
+- All actions accessible.
+
+SECTION 2 — HERO
+This must be the most visually impressive part.
+
+Desktop composition:
+- White/soft-gray premium editorial canvas.
+- 12-column grid or similarly disciplined layout.
+- Left 40–45%: concise typography and actions.
+- Right 55–60%: extraordinary large surgical instrument photography.
+- Allow intentional asymmetric image crop while keeping tools recognizable.
+- Plenty of breathing room.
+- Header and hero must feel like one designed system.
+
+Hero eyebrow:
+PRECISION MANUFACTURING · SIALKOT
+
+Headline:
+Precision in
+Every Detail.
+
+Subheading:
+Surgical and dental instruments, manufactured for professionals worldwide.
+
+Primary CTA:
+Explore Instruments
+
+Secondary text link:
+Manufacturing Capabilities
+
+Do not add extra descriptive paragraphs.
+Use elegant controlled heading width and line breaks.
+Do not use typewriter animations or rotating keywords.
+
+On mobile:
+- Recompose intentionally, do not merely shrink.
+- Typography followed by a cinematic well-cropped image.
+- Buttons usable with one hand.
+- Maintain attractive above-the-fold composition.
+- No overlap between text and imagery.
+
+SECTION 3 — CATEGORY EXPLORATION
+Heading: Explore Our Instruments
+Small link: View All Products
+
+Show 4–6 curated categories with large editorial imagery.
+Potential categories:
+General Surgery
+Dental Instruments
+Orthopedic Instruments
+ENT Instruments
+Diagnostic Instruments
+Instrument Sets
+
+Use categories conditionally according to the actual manufacturer's range; these are demo categories only.
+Prefer image-led, clean, premium cards.
+Names and subtle arrow indicators only.
+No descriptions unless absolutely necessary.
+Design grid with thoughtful asymmetry or varied card proportions, but maintain responsive discipline.
+Category cards are fully clickable.
+
+SECTION 4 — FEATURED PRODUCTS
+Heading: Selected Instruments
+Small link: Full Catalog
+
+Show 4–8 handpicked products from actual catalog data.
+
+Each product card:
+- Premium product photo on subtly cool-gray background
+- Instrument name
+- SKU/reference
+- Short variation/specification
+- Price displayed if enabled
+- Compact add-to-quote action
+- Polished hover state
+
+No marketing paragraphs, promotional stickers, invented ratings, or unnecessary badges.
+
+Pricing design:
+- Support actual individual prices.
+- Support currency formatting.
+- Support 'From' pricing only when backed by real variation prices.
+- Support 'Request pricing' when price is unavailable.
+- Never invent genuine business prices.
+- For demo content, label sample prices as DEMO in an unobtrusive but clear way.
+- Show currency context clearly.
+- Support USD and PKR at minimum.
+- Do not imply exchange-rate conversions are live unless a real supported exchange-rate source exists.
+
+SECTION 5 — MANUFACTURING FEATURE
+One powerful image-led editorial section.
+Prefer one large authentic manufacturing or metal-finishing photograph next to concise copy.
+
+Eyebrow: MANUFACTURING
+Heading: Built with Purpose.
+Body: Precision manufacturing, consistent finishing, and production tailored to your requirements.
+CTA: Our Capabilities
+
+Use no more than two short sentences.
+Communicate OEM/custom manufacturing with clear, authentic information.
+No fake workshop images presented as the client's own facility.
+
+SECTION 6 — OEM / PRIVATE LABEL
+Create a minimal, elegant band or small well-composed visual area.
+
+Heading:
+Your Specifications. Our Craft.
+
+A brief line on available OEM and private-label services, only when actually offered.
+CTA: Discuss a Project
+
+Do not create an enormous feature-card section.
+
+SECTION 7 — FINAL CTA
+A beautifully designed, dark-deep-teal full-width or contained area.
+Extremely clean and quiet.
+
+Heading:
+Let's Build Something Precise.
+
+Supporting text:
+Tell us what you need. We'll help you find the right instruments.
+
+CTA:
+Request a Quotation
+
+Avoid gradients and flashy graphics.
+Use disciplined contrast and typography.
+
+SECTION 8 — FOOTER
+Premium, minimal, editorial.
+
+Left:
+AUREN
+Precision Surgical Manufacturing
+Sialkot, Pakistan
+
+Middle:
+Products
+Manufacturing
+About
+Catalog
+Contact
+
+Right:
+Email / Phone / WhatsApp from real configurable settings.
+
+Bottom:
+Copyright and privacy/terms links.
+Optional understated 'Made in Sialkot, Pakistan.'
+
+No invented addresses, certifications, or social URLs.
+No meaningless paragraphs.
+Excellent spacing and a fine divider.
+
+CATALOG / PRODUCTS PAGE
+The catalog is the commercial heart of the website.
+
+Build a fast, genuinely functional, premium catalog with:
+- Search by product name, SKU, description, and category
+- Debounced search input
+- Category filtering
+- Relevant specification filters where structured data supports them
+- Sort by name and price
+- Responsive product grid
+- Adjustable page size or accessible pagination
+- Clean empty state
+- Category breadcrumb
+- URL-synchronized filters for shareable searches
+- Clear/reset filters
+- No unnecessary reflow
+- Loading/skeleton states where appropriate
+- Product count derived from actual available data
+
+Desktop:
+A clean editorial header with a compact search/filter toolbar.
+Optional restrained left sidebar where appropriate.
+
+Mobile:
+Attractive filter drawer with Apply/Clear controls.
+Search accessible without cumbersome interactions.
+
+Product cards should feel like premium industrial design catalog tiles, not ordinary Shopify dropshipping cards.
+
+PRODUCT DETAIL PAGE
+Build a sophisticated detail experience:
+- Large sharp image gallery, including close-up support
+- Image zoom/lightbox where appropriate
+- Clear product name and SKU
+- Category
+- Price or request-pricing label
+- Specifications table: dimensions, length, material, variations, finish, availability, etc. only when supplied
+- Quantity selector where suitable
+- Add to Quote CTA
+- Direct Inquiry CTA
+- Related instruments (relevant actual data)
+- Breadcrumb
+- PDF specification download only when a real PDF exists
+- Compact, meaningful descriptive copy
+- No fictional stock availability
+- No unverified medical-performance claims
+
+Use excellent image presentation and typography.
+On mobile keep quote actions straightforward and accessible.
+
+QUOTATION SYSTEM
+Implement a fully usable B2B RFQ experience, not decorative buttons.
+
+Users must be able to:
+- Add a product to a quotation list
+- Choose quantity
+- Select available variation where applicable
+- Remove items
+- Update quantities
+- See saved items across page reloads via appropriate client-side persistence
+- View a clean quotation summary
+- Fill out contact name, email, company, country, WhatsApp/phone, optional message
+- Submit an inquiry
+- See clear success/error validation states
+- Download a basic quote-list PDF or export a CSV if feasible
+- Optionally open an accurately formatted WhatsApp inquiry when a real phone number has been configured
+
+The quote flow must distinguish between a non-binding estimate and an actual confirmed quotation.
+Do not build a fake checkout, fake order-confirmation page, or claim a payment has been processed.
+If final prices or freight are not configured, label estimated values accordingly.
+
+Implement a real request submission mechanism:
+Prefer a secure server-side handler integrated with a configurable legitimate email service or backed by a documented inquiry database.
+If credentials are unavailable, provide a safe development preview of submissions and explicit setup guidance.
+Never show 'inquiry sent' for an unsent request.
+No secrets in client-side code.
+Include spam protection, input validation, rate limiting where feasible, and safe error handling.
+
+CATALOG DOWNLOAD PAGE
+Create a simple digital-catalog library:
+- Clean preview image/cover
+- Catalog title
+- Discipline/category
+- File size when known
+- Download PDF action using real provided files
+- Optional search/filter
+- Clear placeholder state when no actual catalogs are available
+
+Never generate fake certificates or official manufacturer catalog PDFs.
+A well-designed empty catalog state is better than misleading content.
+
+MANUFACTURING PAGE
+Present credible factory capabilities through:
+- One editorial hero image
+- Concise introduction
+- Capabilities: material preparation, forming/forging, machining, finishing, inspection, packaging — only if the manufacturer actually performs them
+- OEM/private-label services where offered
+- Supporting production photography
+- Clear inquiry CTA
+
+Keep copy extremely concise.
+Do not invent machinery ownership, annual capacity, export destinations, medical certifications, cleanroom classes, or manufacturing processes.
+
+ABOUT PAGE
+Minimal, authentic.
+Company overview, location, real story, and only verified experience claims.
+Allow an editable founding year but hide any related statement until it has been provided.
+Optional 2–3 real factory images.
+No invented testimonials or team portraits.
+
+CONTACT PAGE
+Excellent minimalist form and layout.
+Include:
+- Name
+- Business email
+- Company
+- Country
+- Product interest
+- Message
+- Send Inquiry
+- Configured email and WhatsApp contact options
+- Real map link only if actual verified address exists
+
+Validate inputs.
+Show clear success/failure.
+Link to privacy policy.
+Do not expose private business data.
+
+CMS / CONTENT MANAGEMENT
+This website must be easy to customize for multiple surgical manufacturing clients.
+
+Create a maintainable, centralized content architecture supporting:
+- Brand name and logo
+- Colors and typography
+- Company profile
+- Contact details
+- Navigation
+- Product categories
+- Products and variants
+- Product images
+- Prices and currencies
+- Catalog PDFs
+- Hero imagery and content
+- Certifications and documents
+- Manufacturing capabilities
+- SEO metadata
+
+Use a strongly typed data model.
+Ensure product SKU uniqueness.
+Use semantic fields, not hard-coded repeated strings.
+
+Provide realistic sample/demo products sufficient to demonstrate browsing, search, sorting, filtering, product details, and RFQ.
+All demo content must be clearly distinguishable from verified client data, particularly prices, certifications, materials, manufacturing claims, and contact information.
+
+Implement a safe CSV/JSON import path for real catalog data, and document the exact import format.
+Structure the data layer so a database or CMS can be added later without redesigning the UI.
+
+If creating an authenticated admin panel is reasonable within this project, implement it securely for editing products and prices. Otherwise prioritize a reliable, editable structured-data workflow over a fake or insecure dashboard.
+
+TECHNOLOGY / ARCHITECTURE
+Use a modern, production-ready stack:
+- Next.js App Router
+- TypeScript strict mode
+- Tailwind CSS
+- Lightweight accessible component primitives
+- Lucide icons used sparingly
+- Motion/Framer Motion only when it earns its complexity
+- Zod for validation
+- Next.js Image or equivalent robust image handling
+
+Prefer Server Components by default and Client Components only for interactive sections.
+Use a clean component architecture.
+Avoid dependency bloat, unnecessary abstractions, and huge monolithic files.
+Use named reusable components.
+Create design tokens, semantic spacing variables, and centralized configuration.
+Do not use an unstyled default component library appearance.
+Every component should feel custom-crafted for the brand.
+
+Implement genuine functionality before decorative embellishment.
+Keep the development process and final repository clean.
+
+PERFORMANCE AND RESPONSIVENESS
+Aim for strong real-world performance on common midrange mobile devices.
+Target where realistically possible:
+- Lighthouse performance >= 90
+- Accessibility >= 95
+- Best Practices >= 95
+- SEO >= 95
+- LCP <= 2.5 seconds under standard tested conditions
+- CLS <= 0.1
+- Minimal unnecessary JavaScript
+
+These are measurable quality targets, not promises.
+If targets are not reached, document actual results and fixes.
+
+Optimize images (WebP/AVIF where suitable), responsive sizes, lazy loading, font loading, hydration, and caching.
+Do not lazy-load a critical LCP hero image.
+Avoid excessive layout shift.
+
+Test layouts at approximately:
+- 360px
+- 390px
+- 768px
+- 1024px
+- 1440px
+- 1920px
+
+Ensure no overflow, overlapping text, misaligned cards, awkward crops, or tiny tap targets.
+
+ACCESSIBILITY
+Use semantic HTML.
+Keyboard-operable navigation, filters, dialogs, and quote actions.
+Clear focus states.
+Meaningful alt text.
+Color contrast at WCAG AA level.
+Correct form labels and accessible errors.
+Reduced-motion support.
+Accessible dialog focus management.
+No hover-only essential controls.
+
+SEO
+Build:
+- Page-specific metadata
+- Clean semantic URL structure
+- Open Graph metadata
+- Sitemap
+- Robots rules
+- Product and business structured data only when factual and valid
+- Optimized headings
+- Canonical URLs
+- Descriptive image alt text
+- Basic local-manufacturer SEO without keyword stuffing
+
+Do not pretend the brand has verified certifications, customers, or international offices.
+
+INTERACTION QUALITY
+All navigation routes must work.
+All buttons must do something legitimate.
+All search and filters must work.
+Category and product links must route correctly.
+Browser back/forward should preserve reasonable state.
+RFQ persistence must work.
+No dead buttons.
+No placeholder 'coming soon' features disguised as finished functionality.
+No console errors.
+No runtime crashes.
+No broken imports.
+No hydration errors.
+
+MICROCOPY
+Write elegant, minimal, natural English.
+Avoid:
+- 'Welcome to our website'
+- 'Your trusted partner'
+- 'We are committed to excellence'
+- 'One-stop solution'
+- 'Revolutionizing healthcare'
+- 'World-class solutions'
+- Generic AI-generated marketing jargon
+- Unsubstantiated superlatives
+
+Use short, useful product and procurement language.
+Prefer clear headings and visual storytelling.
+Every extra sentence must justify its existence.
+
+QUALITY ASSURANCE / AGENT EXECUTION
+You have permission to plan and implement in successive internal phases, but the assignment is to deliver the final project, not a plan.
+
+Follow this workflow autonomously:
+
+PHASE 1 — STRATEGY
+Inspect the repository and available tooling.
+Establish site architecture, visual tokens, components, data models, and image strategy.
+Study relevant inspiration without copying.
+Choose a clear art direction and commit to it.
+
+PHASE 2 — DESIGN SYSTEM
+Implement professional fonts, colors, grid, spacing, reusable components, focus states, transitions, and responsive patterns.
+Check consistency across sections.
+
+PHASE 3 — BUILD
+Implement the entire homepage, product catalog, category pages, individual product pages, RFQ workflow, manufacturing, about, catalog, contact, and legal pages.
+
+PHASE 4 — FUNCTIONALITY
+Wire real search, filtering, product variations, pricing states, quote-list persistence, inquiry validation/submission integration, and navigation.
+Centralize client configuration.
+Ensure sample/demo data can be replaced safely.
+
+PHASE 5 — VISUAL REVIEW
+Run the development server.
+Open the website in the available browser.
+Review screenshots at desktop, tablet, and mobile sizes.
+Identify and correct:
+- Generic AI visual patterns
+- Bad section rhythm
+- Weak hero composition
+- Misaligned typography
+- Crowded interfaces
+- Poor product image scale
+- Unbalanced whitespace
+- Awkward mobile stacking
+- Overanimated elements
+- Weak CTA hierarchy
+
+Iterate based on actual browser screenshots rather than assuming the layout looks good.
+
+PHASE 6 — TESTING
+Run lint, type checks, production build, and available automated tests.
+Manually test:
+- Main navigation
+- Product searches
+- Category filters
+- Product page navigation
+- Quote additions, edits, removals, and persistence
+- Quote inquiry validation and submission states
+- Contact form
+- Mobile menu
+- Responsive layouts
+- PDF downloads
+- 404 behavior
+- Keyboard navigation
+
+Fix discovered issues and retest.
+Never claim a test passed unless it actually ran and passed.
+
+PHASE 7 — DELIVERY
+Provide:
+1. A complete working local application.
+2. A clear project structure.
+3. A short README with installation/run instructions.
+4. A client customization guide.
+5. Exact instructions for adding real product images, categories, SKUs, prices, catalogs, and contact details.
+6. Environment variable example without real secrets.
+7. Deployment guidance suitable for the chosen stack.
+8. A concise summary of completed functionality.
+9. An honest list of any integrations requiring real credentials, business assets, or verification.
+10. Actual testing results.
+
+DESIGN ACCEPTANCE STANDARD
+The first screen must make a prospective manufacturer think:
+'This looks like an established international medical-engineering brand.'
+
+The catalog must make a distributor think:
+'I can locate instruments quickly and request exactly what I need.'
+
+The technical structure must make a future developer think:
+'This is organized, maintainable, and professionally engineered.'
+
+DO NOT:
+- Deliver only a static mockup
+- Stop after the homepage
+- Substitute text for imagery
+- Use unrelated stock photos
+- Copy a competitor's website
+- Fabricate credentials or pricing
+- Create non-functional buttons
+- Overfill the homepage
+- Introduce excessive cards or gradients
+- Add meaningless animations
+- Rush the mobile experience
+- Claim unperformed testing
+- Present unconfigured demos as production integrations
+
+FINAL DIRECTION
+Be exceptionally selective.
+Prefer precision over decoration.
+Prefer authentic usability over effects.
+Prefer excellent typography over unnecessary text.
+Prefer remarkable imagery over gradients.
+Prefer polished custom components over default templates.
+Prefer a restrained finished site over a flashy unfinished site.
+
+Deliver the most polished, elegant, realistic, fully functioning, client-ready surgical instrument manufacturer website you can produce with the available assets and tooling.
+
+Begin implementation now.
